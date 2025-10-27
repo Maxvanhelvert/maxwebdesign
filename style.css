@@ -1,0 +1,81 @@
+@property --dark-purple {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #6B3F69;
+}
+
+@property --mid-purple {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #8D5F8C;
+}
+
+@property --light-purple {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #c89fc7;
+}
+
+@property --dark-grey {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #28252a;
+}
+
+@property --mid-beige {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #D1A980;
+}
+
+@property --light-beige {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #ffead8;
+}
+
+@property --contrast-green {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #748873;
+}
+
+div {
+    width: 100vw;
+    height: 10vh;
+}
+
+.darkPurple {
+    background-color: var(--dark-purple);
+    color: var(--light-beige);
+}
+
+.midPurple {
+    background-color: var(--mid-purple);
+    color: var(--dark-grey);
+}
+
+.lightPurple {
+    background-color: var(--light-purple);
+    color: var(--dark-grey);
+}
+
+.midBeige {
+    background-color: var(--mid-beige);
+    color: var(--dark-grey);
+}
+
+.lightBeige {
+    background-color: var(--light-beige);
+    color: var(--dark-grey);
+}
+
+.darkGrey {
+    background-color: var(--dark-grey);
+    color: var(--light-beige);
+}
+
+.contrastGreen {
+    background-color: var(--contrast-green);
+    color: var(--light-beige);
+}
